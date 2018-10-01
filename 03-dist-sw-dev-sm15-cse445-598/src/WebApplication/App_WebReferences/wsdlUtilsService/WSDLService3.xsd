@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WSDLUtilitiesServices" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WSDLUtilitiesServices" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfMethodDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MethodDetails" type="tns:MethodDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMethodDetails" nillable="true" type="tns:ArrayOfMethodDetails" />
+  <xs:complexType name="MethodDetails">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="inputParameters" nillable="true" type="tns:ArrayOfParameterDetails" />
+      <xs:element minOccurs="0" name="methodName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="outputParameters" nillable="true" type="tns:ArrayOfParameterDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MethodDetails" nillable="true" type="tns:MethodDetails" />
+  <xs:complexType name="ArrayOfParameterDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ParameterDetails" type="tns:ParameterDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfParameterDetails" nillable="true" type="tns:ArrayOfParameterDetails" />
+  <xs:complexType name="ParameterDetails">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="parameterName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="parameterType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ParameterDetails" nillable="true" type="tns:ParameterDetails" />
+  <xs:complexType name="ReturnData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="TypeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="objectXML" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReturnData" nillable="true" type="tns:ReturnData" />
+  <xs:complexType name="InvokeResult">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="InvokeStatus" nillable="true" type="q1:ArrayOfboolean" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="MethodName" nillable="true" type="q2:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InvokeResult" nillable="true" type="tns:InvokeResult" />
+</xs:schema>

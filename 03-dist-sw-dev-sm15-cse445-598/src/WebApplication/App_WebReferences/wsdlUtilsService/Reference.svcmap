@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="41e1806c-965a-41c1-91d3-26be88e0172a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSDLService.xsd" MetadataType="Schema" ID="33441ed5-1542-4416-9fce-4cfdf2725c37" SourceId="1" SourceUrl="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSDLService2.xsd" MetadataType="Schema" ID="2c913428-bc48-43d3-889a-d4b57c400a06" SourceId="1" SourceUrl="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSDLService3.xsd" MetadataType="Schema" ID="efc5bddd-5307-465d-b75d-88068e00b5ce" SourceId="1" SourceUrl="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSDLService4.xsd" MetadataType="Schema" ID="14547b2b-1347-4103-9949-068bc73d302e" SourceId="1" SourceUrl="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?xsd=xsd3" />
+    <MetadataFile FileName="WSDLService.wsdl" MetadataType="Wsdl" ID="e825829a-a10c-40de-bea5-28b49ddc4efa" SourceId="1" SourceUrl="http://webstrar45.fulton.asu.edu/Page1/WSDLService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

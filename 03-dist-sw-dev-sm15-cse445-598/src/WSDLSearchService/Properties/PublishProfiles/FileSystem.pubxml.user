@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Public\Documents\Mukund\CSE445-598\Assignments\Assignment-5\Publish\20150701-1246\WSDLSearchService</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Google.Apis.Core.dll">
+      <publishTime>06/09/2015 23:54:31</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.Customsearch.v1.dll">
+      <publishTime>06/09/2015 23:54:35</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.dll">
+      <publishTime>06/09/2015 23:54:34</publishTime>
+    </File>
+    <File Include="bin/Google.Apis.PlatformServices.dll">
+      <publishTime>06/09/2015 23:54:34</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>06/09/2015 23:54:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.dll">
+      <publishTime>06/09/2015 23:54:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.Desktop.dll">
+      <publishTime>06/09/2015 23:54:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Threading.Tasks.Extensions.dll">
+      <publishTime>06/09/2015 23:54:27</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/09/2015 23:54:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Extensions.dll">
+      <publishTime>06/09/2015 23:54:29</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Primitives.dll">
+      <publishTime>06/09/2015 23:54:29</publishTime>
+    </File>
+    <File Include="bin/WSDLSearchService.dll">
+      <publishTime>07/01/2015 12:49:42</publishTime>
+    </File>
+    <File Include="bin/Zlib.Portable.dll">
+      <publishTime>06/09/2015 23:54:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/20/2015 15:59:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/01/2015 12:49:42</publishTime>
+    </File>
+    <File Include="WSDLSearchService.svc">
+      <publishTime>06/20/2015 16:02:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
