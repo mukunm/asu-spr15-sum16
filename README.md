@@ -30,6 +30,7 @@ The following is the ordered from what I think is the most exciting to least.
 
 ## 05 - Social Media Mining
 > This course could either be good or bad depending on which social network you were going to crawl and scrape. Since only 2 groups could take up the same site, I was left with a website called Twoo which was really hard to crawl and get any useful data.
+> 
 > Although, I found some ways to crawl, I couldn't do very well with that data towards the latter stages of the course. This was one course which I wanted to do well in, but couldn't do much becuase of the ridiculous restriction.
 
 
