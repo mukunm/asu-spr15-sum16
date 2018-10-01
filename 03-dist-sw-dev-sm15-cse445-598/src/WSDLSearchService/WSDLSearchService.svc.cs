@@ -13,7 +13,7 @@ namespace WSDLSearchService
     public class WSDLSearchService : IWSDLSearchService
     {
         /* API key is created using Google's Developer Console */
-        public static string GOOGLE_API_KEY = "AIzaSyCYKQFm6kjnb0fA7TDGu5p6Tml513YgpGk";
+        public static string GOOGLE_API_KEY = "";
 
         /* The search engine is created using Google's Custom Search engine creation control panel */
         public static string GOOGLE_SEARCH_ENGINE_ID = "011747664184491915424:tet0ydvuzws";
